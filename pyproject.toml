@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "math-foundations-of-ml"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Borodynya Maxim <borody.maxim@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/JaskierM/math-foundations-of-ml"
+keywords = ["machine", "learning", "ml"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+
+
+[tool.poetry.group.research.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
